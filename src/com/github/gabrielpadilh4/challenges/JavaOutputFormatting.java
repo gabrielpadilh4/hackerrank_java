@@ -14,7 +14,7 @@ public class JavaOutputFormatting {
             String s1 = sc.next();
             int x = sc.nextInt();
 
-            // Solution
+            // Solution Java Output Formatting
             System.out.printf("%-15s",s1);
             System.out.printf("%03d",x);
             System.out.println();

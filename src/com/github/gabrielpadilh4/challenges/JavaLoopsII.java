@@ -16,6 +16,7 @@ public class JavaLoopsII {
             int b = in.nextInt();
             int n = in.nextInt();
 
+            // Solution
             double[] series = new double[n];
 
             for (int s = 0; s < series.length; s++) {
@@ -32,6 +33,8 @@ public class JavaLoopsII {
             }
 
             System.out.println();
+
+            // end solution
 
         }
         in.close();

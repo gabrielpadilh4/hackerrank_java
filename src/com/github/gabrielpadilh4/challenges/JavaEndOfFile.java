@@ -14,8 +14,7 @@ public class JavaEndOfFile {
         Scanner in = new Scanner(System.in);
 
         int lineNumber = 0;
-        boolean hasNext = false;
-        String input;
+        boolean hasNext;
 
         HashMap<Integer, String> lines = new HashMap<>();
 

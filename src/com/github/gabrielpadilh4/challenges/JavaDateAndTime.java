@@ -41,7 +41,7 @@ class Result {
 public class JavaDateAndTime {
 
     public static void main(String[] args) throws IOException {
-       /* BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
         String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
@@ -51,19 +51,16 @@ public class JavaDateAndTime {
         int day = Integer.parseInt(firstMultipleInput[1]);
 
         int year = Integer.parseInt(firstMultipleInput[2]);
-*/
-        int month = 8;
-        int day = 5;
-        int year = 2015;
+
 
         String res = Result.findDay(month, day, year);
         System.out.println(res);
 
-       /* bufferedWriter.write(res);
+        bufferedWriter.write(res);
         bufferedWriter.newLine();
 
         bufferedReader.close();
-        bufferedWriter.close(); */
+        bufferedWriter.close();
     }
 }
 

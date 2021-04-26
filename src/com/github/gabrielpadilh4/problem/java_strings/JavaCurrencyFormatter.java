@@ -1,4 +1,4 @@
-package com.github.gabrielpadilh4.challenges;
+package com.github.gabrielpadilh4.problem.java_strings;
 
 import java.text.Format;
 import java.text.NumberFormat;
